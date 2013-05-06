@@ -1,0 +1,164 @@
+execve("/usr/sbin/httpd", ["/usr/sbin/httpd", "2"], [/* 17 vars */]) = 0
+brk(0)                                  = 0xe24000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/tls/x86_64/libpcre.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls/x86_64", 0x7fff5eb37d70) = -1 ENOENT (No such file or directory)
+open("/usr/lib/tls/libpcre.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/tls", 0x7fff5eb37d70)    = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64/libpcre.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64", 0x7fff5eb37d70) = -1 ENOENT (No such file or directory)
+open("/usr/lib/libpcre.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=383264, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f332556f000
+mmap(NULL, 2478632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f33250f1000
+mprotect(0x7f332514e000, 2093056, PROT_NONE) = 0
+mmap(0x7f332534d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5c000) = 0x7f332534d000
+close(3)                                = 0
+open("/usr/lib/libaprutil-1.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\217\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=142912, ...}) = 0
+mmap(NULL, 2238264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3324ece000
+mprotect(0x7f3324ef0000, 2093056, PROT_NONE) = 0
+mmap(0x7f33250ef000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x21000) = 0x7f33250ef000
+close(3)                                = 0
+open("/usr/lib/libapr-1.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \316\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=197976, ...}) = 0
+mmap(NULL, 2293336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3324c9e000
+mprotect(0x7f3324ccd000, 2093056, PROT_NONE) = 0
+mmap(0x7f3324ecc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2e000) = 0x7f3324ecc000
+close(3)                                = 0
+open("/usr/lib/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@l\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=137998, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f332556e000
+mmap(NULL, 2208640, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3324a82000
+mprotect(0x7f3324a99000, 2093056, PROT_NONE) = 0
+mmap(0x7f3324c98000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f3324c98000
+mmap(0x7f3324c9a000, 13184, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3324c9a000
+close(3)                                = 0
+open("/usr/lib/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\30\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2009849, ...}) = 0
+mmap(NULL, 3828816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f33246db000
+mprotect(0x7f3324879000, 2093056, PROT_NONE) = 0
+mmap(0x7f3324a78000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19d000) = 0x7f3324a78000
+mmap(0x7f3324a7e000, 15440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3324a7e000
+close(3)                                = 0
+open("/usr/lib/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=170144, ...}) = 0
+mmap(NULL, 2265296, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f33244b1000
+mprotect(0x7f33244d9000, 2093056, PROT_NONE) = 0
+mmap(0x7f33246d8000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x27000) = 0x7f33246d8000
+close(3)                                = 0
+open("/usr/lib/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=18864, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f332556d000
+mmap(NULL, 2113904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f33242ac000
+mprotect(0x7f33242b0000, 2093056, PROT_NONE) = 0
+mmap(0x7f33244af000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f33244af000
+close(3)                                = 0
+open("/usr/lib/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=31760, ...}) = 0
+mmap(NULL, 2128880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f33240a4000
+mprotect(0x7f33240ab000, 2093056, PROT_NONE) = 0
+mmap(0x7f33242aa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f33242aa000
+close(3)                                = 0
+open("/usr/lib/libcrypt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\f\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=35136, ...}) = 0
+mmap(NULL, 2318816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3323e6d000
+mprotect(0x7f3323e75000, 2093056, PROT_NONE) = 0
+mmap(0x7f3324074000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f3324074000
+mmap(0x7f3324076000, 184800, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3324076000
+close(3)                                = 0
+open("/usr/lib/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=14648, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f332556c000
+mmap(NULL, 2109720, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3323c69000
+mprotect(0x7f3323c6c000, 2093056, PROT_NONE) = 0
+mmap(0x7f3323e6b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f3323e6b000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f332556b000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3325569000
+arch_prctl(ARCH_SET_FS, 0x7f3325569740) = 0
+mprotect(0x7f3324a78000, 16384, PROT_READ) = 0
+mprotect(0x7f3323e6b000, 4096, PROT_READ) = 0
+mprotect(0x7f3324074000, 4096, PROT_READ) = 0
+mprotect(0x7f3324c98000, 4096, PROT_READ) = 0
+mprotect(0x7f33242aa000, 4096, PROT_READ) = 0
+mprotect(0x7f33244af000, 4096, PROT_READ) = 0
+mprotect(0x7f33246d8000, 8192, PROT_READ) = 0
+mprotect(0x7f3324ecc000, 4096, PROT_READ) = 0
+mprotect(0x7f332534d000, 4096, PROT_READ) = 0
+mprotect(0x65f000, 4096, PROT_READ)     = 0
+mprotect(0x7f3325570000, 4096, PROT_READ) = 0
+set_tid_address(0x7f3325569a10)         = 1718
+set_robust_list(0x7f3325569a20, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f3324a887a0, [], SA_RESTORER|SA_SIGINFO, 0x7f3324a91170}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f3324a88820, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f3324a91170}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(0)                                  = 0xe24000
+brk(0xe45000)                           = 0xe45000
+gettimeofday({1351174932, 453450}, NULL) = 0
+gettimeofday({1351174932, 453764}, NULL) = 0
+gettimeofday({1351174932, 453998}, NULL) = 0
+gettimeofday({1351174932, 454181}, NULL) = 0
+brk(0xe67000)                           = 0xe67000
+write(2, "Usage: /usr/sbin/httpd [-D name]"..., 58Usage: /usr/sbin/httpd [-D name] [-d directory] [-f file]
+) = 58
+write(2, "                       [-C \"dire"..., 57                       [-C "directive"] [-c "directive"]
+) = 57
+write(2, "                       [-k start"..., 70                       [-k start|restart|graceful|graceful-stop|stop]
+) = 70
+write(2, "                       [-v] [-V]"..., 63                       [-v] [-V] [-h] [-l] [-L] [-t] [-T] [-S]
+) = 63
+write(2, "Options:\n", 9Options:
+)               = 9
+write(2, "  -D name            : define a "..., 75  -D name            : define a name for use in <IfDefine name> directives
+) = 75
+write(2, "  -d directory       : specify a"..., 63  -d directory       : specify an alternate initial ServerRoot
+) = 63
+write(2, "  -f file            : specify a"..., 61  -f file            : specify an alternate ServerConfigFile
+) = 61
+write(2, "  -C \"directive\"     : process d"..., 69  -C "directive"     : process directive before reading config files
+) = 69
+write(2, "  -c \"directive\"     : process d"..., 68  -c "directive"     : process directive after reading config files
+) = 68
+write(2, "  -e level           : show star"..., 67  -e level           : show startup errors of level (see LogLevel)
+) = 67
+write(2, "  -E file            : log start"..., 50  -E file            : log startup errors to file
+) = 50
+write(2, "  -v                 : show vers"..., 43  -v                 : show version number
+) = 43
+write(2, "  -V                 : show comp"..., 45  -V                 : show compile settings
+) = 45
+write(2, "  -h                 : list avai"..., 71  -h                 : list available command line options (this page)
+) = 71
+write(2, "  -l                 : list comp"..., 48  -l                 : list compiled in modules
+) = 48
+write(2, "  -L                 : list avai"..., 63  -L                 : list available configuration directives
+) = 63
+write(2, "  -t -D DUMP_VHOSTS  : show pars"..., 76  -t -D DUMP_VHOSTS  : show parsed settings (currently only vhost settings)
+) = 76
+write(2, "  -S                 : a synonym"..., 55  -S                 : a synonym for -t -D DUMP_VHOSTS
+) = 55
+write(2, "  -t -D DUMP_MODULES : show all "..., 48  -t -D DUMP_MODULES : show all loaded modules 
+) = 48
+write(2, "  -M                 : a synonym"..., 56  -M                 : a synonym for -t -D DUMP_MODULES
+) = 56
+write(2, "  -t                 : run synta"..., 57  -t                 : run syntax check for config files
+) = 57
+write(2, "  -T                 : start wit"..., 59  -T                 : start without DocumentRoot(s) check
+) = 59
+select(0, NULL, NULL, NULL, {0, 10000}) = 0 (Timeout)
+brk(0xe4f000)                           = 0xe4f000
+brk(0xe45000)                           = 0xe45000
+exit_group(1)                           = ?
++++ exited with 1 +++
