@@ -113,8 +113,22 @@ code {
   }
 }
 
-
 @media all and (max-width: 320px) {
+  p.intro {
+    font-size: 22pt;
+    line-height: 24pt;
+  }
+  p.detail {
+    font-size: 13pt;
+    line-height: 16pt;
+  }
+  p.bored {
+    font-size: 9pt;
+  }
+}
+
+
+@media all and (max-width: 240px) {
   p.intro {
     font-size: 16pt;
     line-height: 16pt;
