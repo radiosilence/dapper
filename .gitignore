@@ -1,2 +1,6 @@
 .sass-cache
+*.lua
+*.compiled
+logs
+*_temp
 
